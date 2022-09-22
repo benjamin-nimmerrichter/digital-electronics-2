@@ -5,7 +5,7 @@
 
 1. Draw two basic ways to connect a LED to the output pin of the microcontroller: LED active-low, LED active-high.
 
- ![leds](imag/leds.png)
+ ![leds](img/leds.png)
 
 2. [Calculate LED resistor value](https://electronicsclub.info/leds.htm) for typical LEDs. Let the LED current is 20 milli amps.
 
@@ -19,4 +19,4 @@
 
 3. Draw the basic ways to connect a push button to the microcontroller input pin: button active-low, button active-high.
 
- ![buttons](imag/buttons.png)
+ ![buttons](img/buttons.png)
