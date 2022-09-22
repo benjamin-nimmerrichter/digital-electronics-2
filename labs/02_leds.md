@@ -1,32 +1,7 @@
 # Lab 2: Control of GPIO, LED, push button
 
-![Arduino Uno](images/arduino_uno_leds.jpg)
 
-### Learning objectives
-
-After completing this lab you will be able to:
-
-* Use LEDs and push buttons
-* Config input/output ports of AVR using control registers
-* Use ATmega328P manual and find information
-* Use breadboard and connect electronic devices to AVR pins
-
-The purpose of this laboratory exercise is to learn how to use basic input/output devices such as LEDs (Light Emitting Diodes) and push buttons, and how to control GPIO (General Purpose Input Output) pins with help of control registers.
-
-### Table of contents
-
-* [Preparation tasks](#preparation)
-* [Part 1: Synchronize Git and create a new folder](#part1)
-* [Part 2: Active-low and active-high LEDs](#part2)
-* [Part 3: Push button](#part3)
-* [Part 4: Switch debouncing](#part4)
-* [Experiments on your own](#experiments)
-* [Lab assignment](#assignment)
-* [References](#references)
-
-<a name="preparation"></a>
-
-## Preparation tasks (done before the lab at home)
+## Preparation
 
 1. Draw two basic ways to connect a LED to the output pin of the microcontroller: LED active-low, LED active-high.
 
