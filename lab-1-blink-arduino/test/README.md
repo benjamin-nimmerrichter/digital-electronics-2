@@ -1,4 +1,4 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: Benjamin Nimmerrichter
 
 ### Morse code
 
@@ -13,10 +13,22 @@ int main(void)
     // Infinite loop
     while (1)
     {
-        // Generate a lettre `A` Morse code
+        //----- Generate a letter `A` Morse code -----
 
-        // WRITE YOUR CODE HERE
+        // dot
+        digitalWrite(LED_GREEN, HIGH);
+        _delay_ms(SHORT_DELAY);
+        digitalWrite(LED_GREEN, LOW);
+        _delay_ms(LONG_DELAY);
 
+        // bar
+        digitalWrite(LED_GREEN, HIGH);
+        _delay_ms(LONG_DELAY);
+        digitalWrite(LED_GREEN, LOW);
+        _delay_ms(SHORT_DELAY);
+
+        // spacing so you better see the single letter
+        _delay_ms(LONG_DELAY);
     }
 
     // Will never reach this
@@ -26,4 +38,6 @@ int main(void)
 
 2. Scheme of Morse code application, i.e. connection of AVR device, LED, resistor, and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-   ![your figure]()
+    ![your figure](schema.png)
+
+   ![your figure](led1.png)
