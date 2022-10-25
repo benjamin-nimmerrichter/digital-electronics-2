@@ -11,7 +11,7 @@
    | R/W | GND |read/write, controls if we read (R/W = 1) or write values (R/W = 0)|
    | E | PB1 | enable signal, triggers on falling edge |
    | D[3:0] | unused | data input 4 bits second symbol |
-   | D[7:4] | PB[7:4] | data input 4 bits first symbol |
+   | D[7:4] | PD[7:4] | data input 4 bits first symbol |
    | K | PB2 | backlight cathode |
 
 2. What is the ASCII table? What are the codes/values for uppercase letters `A` to `Z`, lowercase letters `a` to `z`, and numbers `0` to `9` in this table?
@@ -96,4 +96,4 @@
 
 2. Draw a schema of the kitchen alarm application that counts down the time with an LCD, one LED and three push buttons: start, +1 minute, -1 minute. Use the +1/-1 minute buttons to increment/decrement the timer value. After pressing the Start button, the countdown starts. The countdown value is shown on the display in the form of mm.ss (minutes.seconds). At the end of the countdown, the LED will start blinking. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+   ![your figure](img/schema.png)
