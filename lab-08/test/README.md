@@ -1,4 +1,4 @@
-# Lab 8: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 8: Benjamin Nimmerrichter
 
 ### Instruction set
 
@@ -28,8 +28,8 @@
    | **Tap position** | **Length** | **Bits** |
    | :-: | :-- | :-: |
    | 5, 3 | `31` | `5` |
-   | 6, 4 | `63` | `6` |
-   | 7, 5 | `1 2 5 10 4 9 3 6 13 11 7 14 12 8 0` | `7` |
+   | 6, 5 | `63` | `6` |
+   | 7, 6 | `127` | `7` |
 
 
 ### Variable number of short pulses
