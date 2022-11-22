@@ -23,6 +23,14 @@
    | 4, 1 | `1 2 5 10 4 9 3 6 13 11 7 14 12 8 0` | `15` |
 
 
+### Variable number of short pulses
+
+3. Draw a flowchart of function `void burst_c(uint8_t number)` which generates a variable number of short pulses at output pin. Let the pulse width be the shortest one. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
+
+   ![your figure](img/08_scheme.png)
+
+
+
 ### 5,6 and 7 bir LFSR
 
    | **Tap position** | **Length** | **Bits** |
@@ -30,10 +38,3 @@
    | 5, 3 | `31` | `5` |
    | 6, 5 | `63` | `6` |
    | 7, 6 | `127` | `7` |
-
-
-### Variable number of short pulses
-
-3. Draw a flowchart of function `void burst_c(uint8_t number)` which generates a variable number of short pulses at output pin. Let the pulse width be the shortest one. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
-
-   ![your figure](img/08_scheme.png)
