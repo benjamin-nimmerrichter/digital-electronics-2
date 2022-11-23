@@ -1,0 +1,1 @@
+LCD DATASHEET:  https://www.tme.eu/Document/07d3a201631d75ac52980710936cebec/410-142P.pdf
